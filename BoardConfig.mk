@@ -23,7 +23,7 @@ TARGET_INIT_VENDOR_LIB := libinit_msm8974
 TARGET_LIBINIT_MSM8974_DEFINES_FILE := device/samsung/hltekor/init/init_hlte.cpp
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_hltekor_defconfig
+TARGET_KERNEL_CONFIG := mokee_hltekor_defconfig
 
 # NFC
 include $(COMMON_PATH)/nfc/bcm2079x/board.mk
